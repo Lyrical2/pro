@@ -8,7 +8,7 @@ os.system('termux-setup-storage')
 os.system('git pull')
 try:os.system('touch /sdcard/lyrical.txt')
 except:pass
-try:os.system('touch .proxy.txt')
+try:os.system('touch /sdcard/lyrical.txt')
 except:pass
 try:os.mkdir('/sdcard/OK')
 except:pass
